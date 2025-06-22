@@ -1,0 +1,45 @@
+body{
+
+margin: 0;
+box-sizing: border-box;
+padding: 0;
+}
+
+#home{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+background-image:url('images/zara6.jpg');
+background-size:contain;
+ background-repeat: repeat;
+ height: 100vh;
+position: relative;
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap:25px;
+    position: absolute;
+
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size:20px;
+  transition: color 0.3s ease;
+}
+span{
+    padding-left: 50px;
+}
+
+#women{
+    display: flex;
+    flex-direction: row;
+}
+
+.container2{
+    background-color: bisque;
+}
