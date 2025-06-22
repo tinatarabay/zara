@@ -38,8 +38,34 @@ span{
 #women{
     display: flex;
     flex-direction: row;
+    gap: 20px;
+    background-color: bisque;
 }
 
 .container2{
-    background-color: bisque;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+p{
+
+    font-family: 'Inter', sans-serif;
+      font-size: 16px;
+}
+#men{
+display: flex;
+flex-direction: row;
+gap: 20px;
+  
+}
+#try{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
 }
